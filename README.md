@@ -42,4 +42,22 @@ Results of the first level of segmentation are presented below.
 
 ## 4. Classification model
 
-One decision tree for each segmentation step was trained, 
+The classification model was developed with 10 decision trees, one for each segmentation step as shown in the diagram above.
+
+The data was balanced using SMOTE algorithm from ibmlearn library. The metrics used to check the trees accuracy were the F1-Score and confusion matrices. 
+
+The final accuracy of the model is shown in the image below. 
+![final accuracy]( /img/final_acc_10_trees.JPG)
+
+## 6.  Development of control panels for the model
+The control panels are interactive tools to monitor the model and act if the data changes and a change in the model is need.
+
+There are two main controls: input data controls and output data controls.
+
+### Input data
+The input data for the model is controlled by examining their distribution and variation each moth with a window of one year (12 months).
+
+### Output data
+The output data, I.e. the classification, is controlled by examining the 27 variables used in the trees of the classification model and the classification from this model.
+
+The control panels are in a R Shiny app, the code of the first version of this app is in the folder [Shiny_test](modelo-sesa/Shiny_test/).
