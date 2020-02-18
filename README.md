@@ -76,3 +76,8 @@ The process of automatization is summarized in the following scheme
 ![automatization]( /img/automatization.JPG)
 
 ## 8. Evolution
+
+This project is in continuous evolution and first next steps are the following:
+1.	Optimization of the data extraction and aggregation process.
+2.	Development of a dashboard with insights for managers
+3.	Deployment of the Shiny app in a container
