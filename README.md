@@ -49,6 +49,11 @@ The data was balanced using SMOTE algorithm from `ibmlearn` library. The metrics
 The final accuracy of the model is shown in the image below. 
 ![final accuracy]( /img/final_acc_10_trees.JPG)
 
+## 5. Deployment of the classification model
+The classification model, composed of 10 decision trees, was deployed in a repository of GitLab.
+
+![modelos](/img/modelos.JPG)
+
 ## 6.  Development of control panels for the model
 The control panels are interactive tools to monitor the model and act if the data changes and a change in the model is need.
 
