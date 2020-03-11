@@ -21,6 +21,11 @@ There are 3 Jupyter notebooks explaining the procedure of extraction, pre-proces
 The feature engineering process is summarized in the following image.
 ![feature engineering](/img/feature_eng.JPG)
 
+Contitions to ensure data integrity:
+  * At least 90 days since the installation of the device
+  * At least 90 days of driving
+  * Observed defective devices were excluded 
+
 ## 2. Descriptive Analysis
 
 The Jupyter Notebook explaining the methodology used to reduce the number of categories in geographic variables using Correspondence Analysis is called: [MCA para variables geográficas](https://github.com/raquelvargas16/modelo-sesa/blob/master/MCA%20para%20variables%20geogr%C3%A1ficas.ipynb)
