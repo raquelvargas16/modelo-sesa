@@ -30,6 +30,12 @@ Contitions to ensure data integrity:
 
 The Jupyter Notebook explaining the methodology used to reduce the number of categories in geographic variables using Correspondence Analysis is called: [MCA para variables geográficas](https://github.com/raquelvargas16/modelo-sesa/blob/master/MCA%20para%20variables%20geogr%C3%A1ficas.ipynb)
 
+ I did a Principal Component Analysis to see the correlations between features. The results of the PCA were 16 principal components out of 110 features, this results are in the excel file "Rotated_Component_Matrix.xlsx". From this analysis, 44 features were selected with the client for the first clustering attempt. 
+
+Afterward, I ran a Two-Step clustering analysis using the 44 variables. From this clustering analysis, the model with best cohesion and separation measures had three clusters. The results are shown in the image below.
+
+![first clustering](First_Clustering_Attempt.JPG)
+
 ## 3. Data Segmentation
 
 The methodology used for the data segmentation part and the classification model was proposed and supervised by SESA's head actuary. 
