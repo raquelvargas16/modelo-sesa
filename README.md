@@ -32,7 +32,7 @@ The Jupyter Notebook explaining the methodology used to reduce the number of cat
 
  I did a Principal Component Analysis to see the correlations between features. The results of the PCA were 16 principal components out of 110 features, this results are in the excel file "Rotated_Component_Matrix.xlsx". From this analysis, 44 features were selected with the client for the first clustering attempt. 
 
-Afterward, I ran a Two-Step clustering analysis using the 44 variables. From this clustering analysis, the model with best cohesion and separation measures had three clusters. The results are shown in the image below.
+Afterward, I ran a Two-Step clustering analysis and the model with best cohesion and separation measures had three clusters and 30 features. The results are shown in the image below.
 
 ![first clustering](First_Clustering_Attempt.JPG)
 
